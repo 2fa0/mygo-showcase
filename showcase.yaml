@@ -515,3 +515,14 @@
   author: KevinXC5
   mode: native
   image: images/leafmark.jpg
+
+- name: aria.fm
+  description: >-
+    A native Spotify client for Linux, Windows and macOS, written in Go with
+    librespot for playback. Browse artists, albums and your library, start a
+    radio from any track, search from a command palette, follow along with
+    synced lyrics and pick from a dozen themes.
+  url: https://aria.fm
+  author: Cmdly
+  mode: native
+  image: images/aria-fm.jpg
