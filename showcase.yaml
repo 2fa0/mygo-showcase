@@ -391,3 +391,127 @@
   author: horizon0514
   mode: native
   image: images/miguwave.jpg
+
+- name: OpenBee
+  description: >-
+    An open-source AI team for macOS, Windows and Linux, with its server built in.
+    Message Bee, the coordinator, and it hands each task to a worker running
+    Claude Code, Codex or pi in its own folder, now, later or on a cron schedule;
+    the same workers also answer in the browser and in chat apps like Telegram,
+    Discord and Lark.
+  url: https://github.com/theopenbee/openbee
+  author: theopenbee
+  mode: native
+  image: images/openbee.jpg
+
+- name: Ferry Drive
+  description: >-
+    An open-source desktop client for Baidu Netdisk and Quark Drive on Apple
+    Silicon Macs and Windows 10 or 11 (x64). Browse files, manage uploads and
+    downloads, and open shared links.
+  url: https://github.com/yjcdon/ferry-drive
+  author: yjcdon
+  mode: native
+  image: images/ferry-drive.png
+
+- name: Snapover
+  description: >-
+    An open-source clipboard manager for macOS and Windows. Sync text, images,
+    files and folders between computers over a direct, encrypted connection.
+  url: https://github.com/2fa0/snapover
+  author: "2fa0"
+  mode: native
+  image: images/snapover.jpg
+
+- name: Xylring
+  description: >-
+    An open-source native Git client for macOS and Windows. Browse commit graphs,
+    review diffs, search history and stage individual hunks.
+  url: https://github.com/2fa0/xylring
+  author: "2fa0"
+  mode: native
+  image: images/xylring.jpg
+
+- name: "Mojian 墨间"
+  description: >-
+    A quiet, native plain-text editor for ordinary folders on macOS, Linux and
+    Windows. Tabs hold split editors, image and PDF viewers and persistent
+    terminals, with built-in Git diffs and remote projects over SSH; MyGo's native
+    UI is the whole app, in one Go binary.
+  url: https://mojian.ox0pine.cn
+  author: ox0pine
+  mode: native
+  image: images/mojian.jpg
+
+- name: Paperly
+  description: >-
+    A native Markdown editor drawn with MyGo's native UI: the block under the
+    caret shows its source while everything else stays rendered. File tree,
+    full-text search, per-item list editing, and .md file associations on macOS
+    and Windows, in one Go binary.
+  url: https://github.com/jiangwanying/paperly
+  author: jiangwanying
+  mode: native
+  image: images/paperly.jpg
+
+- name: Glide
+  description: >-
+    A lightweight native desktop word translation tool that supports macOS and
+    Windows.
+  url: https://github.com/anghunk/glide
+  author: anghunk
+  mode: native
+  image: images/glide.png
+
+- name: "Framely · 取景"
+  description: >-
+    An open-source screenshot and image pinning tool for Windows, Linux and macOS,
+    drawn with MyGo's native UI. Annotate captures, record a region, recognize
+    text offline and translate it; Windows and Linux also support scrolling
+    screenshots.
+  url: https://github.com/wildalley/framely
+  author: wildalley
+  mode: native
+  image: images/framely.png
+
+- name: MyGO Wallhaven
+  description: >-
+    An open-source Wallhaven wallpaper client built with Go and MyGO's native UI.
+    Browse recommendations, search and filter wallpapers by resolution, aspect
+    ratio and color, preview full-size images, save local favorites, manage
+    resumable downloads, and set your desktop wallpaper.
+  url: https://github.com/MaLuns/wallhaven
+  author: MaLuns
+  mode: native
+
+- name: goFinder
+  description: >-
+    A keyboard-and-mouse file manager for macOS that brings Yazi's three columns
+    and single-key actions to a native window. Filter as you type, even by pinyin
+    initials, preview with Quick Look, split the window into two panes, and open
+    an AI agent in the current folder.
+  url: https://github.com/aoyamashou/goFinder
+  author: aoyamashou
+  mode: native
+  image: images/gofinder.jpg
+
+- name: "划词翻译"
+  description: >-
+    A desktop translator for macOS and Windows. Select text and hold the right
+    mouse button to translate it with a configured LLM, see the result in a popup
+    and reuse locally cached translations.
+  url: https://github.com/wojiukankan/translate
+  author: wojiukankan
+  mode: native
+  image: images/hua-ci-fan-yi.png
+
+- name: "Leafmark · 叶笺"
+  description: >-
+    A lightweight WYSIWYG Markdown editor for macOS and Windows, drawn entirely
+    with MyGo's native UI. Features multi-tab editing, folder workspaces, a
+    leaf-vein outline, native TeX math and Mermaid diagram rendering, and HTML/PDF
+    export.
+  url: https://github.com/KevinXC5/leafmark
+  author: KevinXC5
+  mode: native
+  image: images/leafmark.jpg
