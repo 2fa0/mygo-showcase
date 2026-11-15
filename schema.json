@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MyGo showcase",
+  "description": "Apps built with MyGo, shown at https://mygo.run/showcase.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["name", "description", "url"],
+    "properties": {
+      "name": { "type": "string", "minLength": 1, "description": "The app's name." },
+      "description": { "type": "string", "minLength": 1, "description": "What it does, in a sentence or two, in English." },
+      "url": { "type": "string", "pattern": "^https://", "description": "Where to get it or read about it, such as its repository." },
+      "author": { "type": "string", "description": "Your name or GitHub login." },
+      "mode": {
+        "enum": ["native", "web"],
+        "description": "\"native\" when its windows draw native UI (package ui), \"web\" when they show a web frontend in the system webview."
+      },
+      "image": {
+        "type": "string",
+        "pattern": "^images/[a-z0-9][a-z0-9._-]*\\.(jpg|jpeg|png|webp|svg)$",
+        "description": "A screenshot in images/, such as images/my-app.jpg: about 1600×1000, under 300 KB."
+      }
+    }
+  }
+}
